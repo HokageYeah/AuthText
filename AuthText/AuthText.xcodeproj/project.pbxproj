@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F88A6D371E94945B00F8E434 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F88A6D361E94945B00F8E434 /* main.m */; };
+		F88A6D3A1E94945B00F8E434 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F88A6D391E94945B00F8E434 /* AppDelegate.m */; };
+		F88A6D3D1E94945B00F8E434 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F88A6D3C1E94945B00F8E434 /* ViewController.m */; };
+		F88A6D401E94945B00F8E434 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88A6D3E1E94945B00F8E434 /* Main.storyboard */; };
+		F88A6D421E94945B00F8E434 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88A6D411E94945B00F8E434 /* Assets.xcassets */; };
+		F88A6D451E94945B00F8E434 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88A6D431E94945B00F8E434 /* LaunchScreen.storyboard */; };
+		F88A6D501E94945B00F8E434 /* AuthTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F88A6D4F1E94945B00F8E434 /* AuthTextTests.m */; };
+		F88A6D5B1E94945B00F8E434 /* AuthTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F88A6D5A1E94945B00F8E434 /* AuthTextUITests.m */; };
+		F88A6D6A1E94966B00F8E434 /* AuthcodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F88A6D691E94966B00F8E434 /* AuthcodeView.m */; };
+		F88A6D6D1E9496AB00F8E434 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88A6D6C1E9496AB00F8E434 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F88A6D4C1E94945B00F8E434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F88A6D2A1E94945B00F8E434 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F88A6D311E94945B00F8E434;
+			remoteInfo = AuthText;
+		};
+		F88A6D571E94945B00F8E434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F88A6D2A1E94945B00F8E434 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F88A6D311E94945B00F8E434;
+			remoteInfo = AuthText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F88A6D321E94945B00F8E434 /* AuthText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88A6D361E94945B00F8E434 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F88A6D381E94945B00F8E434 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F88A6D391E94945B00F8E434 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F88A6D3B1E94945B00F8E434 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F88A6D3C1E94945B00F8E434 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F88A6D3F1E94945B00F8E434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F88A6D411E94945B00F8E434 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F88A6D441E94945B00F8E434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F88A6D461E94945B00F8E434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F88A6D4B1E94945B00F8E434 /* AuthTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88A6D4F1E94945B00F8E434 /* AuthTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthTextTests.m; sourceTree = "<group>"; };
+		F88A6D511E94945B00F8E434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F88A6D561E94945B00F8E434 /* AuthTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88A6D5A1E94945B00F8E434 /* AuthTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthTextUITests.m; sourceTree = "<group>"; };
+		F88A6D5C1E94945B00F8E434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F88A6D681E94966B00F8E434 /* AuthcodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthcodeView.h; sourceTree = "<group>"; };
+		F88A6D691E94966B00F8E434 /* AuthcodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthcodeView.m; sourceTree = "<group>"; };
+		F88A6D6C1E9496AB00F8E434 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F88A6D2F1E94945B00F8E434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88A6D6D1E9496AB00F8E434 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88A6D481E94945B00F8E434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88A6D531E94945B00F8E434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F88A6D291E94945B00F8E434 = {
+			isa = PBXGroup;
+			children = (
+				F88A6D341E94945B00F8E434 /* AuthText */,
+				F88A6D4E1E94945B00F8E434 /* AuthTextTests */,
+				F88A6D591E94945B00F8E434 /* AuthTextUITests */,
+				F88A6D331E94945B00F8E434 /* Products */,
+				F88A6D6B1E9496AA00F8E434 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F88A6D331E94945B00F8E434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F88A6D321E94945B00F8E434 /* AuthText.app */,
+				F88A6D4B1E94945B00F8E434 /* AuthTextTests.xctest */,
+				F88A6D561E94945B00F8E434 /* AuthTextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F88A6D341E94945B00F8E434 /* AuthText */ = {
+			isa = PBXGroup;
+			children = (
+				F88A6D381E94945B00F8E434 /* AppDelegate.h */,
+				F88A6D391E94945B00F8E434 /* AppDelegate.m */,
+				F88A6D3B1E94945B00F8E434 /* ViewController.h */,
+				F88A6D3C1E94945B00F8E434 /* ViewController.m */,
+				F88A6D681E94966B00F8E434 /* AuthcodeView.h */,
+				F88A6D691E94966B00F8E434 /* AuthcodeView.m */,
+				F88A6D3E1E94945B00F8E434 /* Main.storyboard */,
+				F88A6D411E94945B00F8E434 /* Assets.xcassets */,
+				F88A6D431E94945B00F8E434 /* LaunchScreen.storyboard */,
+				F88A6D461E94945B00F8E434 /* Info.plist */,
+				F88A6D351E94945B00F8E434 /* Supporting Files */,
+			);
+			path = AuthText;
+			sourceTree = "<group>";
+		};
+		F88A6D351E94945B00F8E434 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F88A6D361E94945B00F8E434 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F88A6D4E1E94945B00F8E434 /* AuthTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				F88A6D4F1E94945B00F8E434 /* AuthTextTests.m */,
+				F88A6D511E94945B00F8E434 /* Info.plist */,
+			);
+			path = AuthTextTests;
+			sourceTree = "<group>";
+		};
+		F88A6D591E94945B00F8E434 /* AuthTextUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F88A6D5A1E94945B00F8E434 /* AuthTextUITests.m */,
+				F88A6D5C1E94945B00F8E434 /* Info.plist */,
+			);
+			path = AuthTextUITests;
+			sourceTree = "<group>";
+		};
+		F88A6D6B1E9496AA00F8E434 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F88A6D6C1E9496AB00F8E434 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F88A6D311E94945B00F8E434 /* AuthText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F88A6D5F1E94945B00F8E434 /* Build configuration list for PBXNativeTarget "AuthText" */;
+			buildPhases = (
+				F88A6D2E1E94945B00F8E434 /* Sources */,
+				F88A6D2F1E94945B00F8E434 /* Frameworks */,
+				F88A6D301E94945B00F8E434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuthText;
+			productName = AuthText;
+			productReference = F88A6D321E94945B00F8E434 /* AuthText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F88A6D4A1E94945B00F8E434 /* AuthTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F88A6D621E94945B00F8E434 /* Build configuration list for PBXNativeTarget "AuthTextTests" */;
+			buildPhases = (
+				F88A6D471E94945B00F8E434 /* Sources */,
+				F88A6D481E94945B00F8E434 /* Frameworks */,
+				F88A6D491E94945B00F8E434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F88A6D4D1E94945B00F8E434 /* PBXTargetDependency */,
+			);
+			name = AuthTextTests;
+			productName = AuthTextTests;
+			productReference = F88A6D4B1E94945B00F8E434 /* AuthTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F88A6D551E94945B00F8E434 /* AuthTextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F88A6D651E94945B00F8E434 /* Build configuration list for PBXNativeTarget "AuthTextUITests" */;
+			buildPhases = (
+				F88A6D521E94945B00F8E434 /* Sources */,
+				F88A6D531E94945B00F8E434 /* Frameworks */,
+				F88A6D541E94945B00F8E434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F88A6D581E94945B00F8E434 /* PBXTargetDependency */,
+			);
+			name = AuthTextUITests;
+			productName = AuthTextUITests;
+			productReference = F88A6D561E94945B00F8E434 /* AuthTextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F88A6D2A1E94945B00F8E434 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "余晔";
+				TargetAttributes = {
+					F88A6D311E94945B00F8E434 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F88A6D4A1E94945B00F8E434 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F88A6D311E94945B00F8E434;
+					};
+					F88A6D551E94945B00F8E434 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F88A6D311E94945B00F8E434;
+					};
+				};
+			};
+			buildConfigurationList = F88A6D2D1E94945B00F8E434 /* Build configuration list for PBXProject "AuthText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F88A6D291E94945B00F8E434;
+			productRefGroup = F88A6D331E94945B00F8E434 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F88A6D311E94945B00F8E434 /* AuthText */,
+				F88A6D4A1E94945B00F8E434 /* AuthTextTests */,
+				F88A6D551E94945B00F8E434 /* AuthTextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F88A6D301E94945B00F8E434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88A6D451E94945B00F8E434 /* LaunchScreen.storyboard in Resources */,
+				F88A6D421E94945B00F8E434 /* Assets.xcassets in Resources */,
+				F88A6D401E94945B00F8E434 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88A6D491E94945B00F8E434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88A6D541E94945B00F8E434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F88A6D2E1E94945B00F8E434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88A6D3D1E94945B00F8E434 /* ViewController.m in Sources */,
+				F88A6D6A1E94966B00F8E434 /* AuthcodeView.m in Sources */,
+				F88A6D3A1E94945B00F8E434 /* AppDelegate.m in Sources */,
+				F88A6D371E94945B00F8E434 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88A6D471E94945B00F8E434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88A6D501E94945B00F8E434 /* AuthTextTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88A6D521E94945B00F8E434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88A6D5B1E94945B00F8E434 /* AuthTextUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F88A6D4D1E94945B00F8E434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F88A6D311E94945B00F8E434 /* AuthText */;
+			targetProxy = F88A6D4C1E94945B00F8E434 /* PBXContainerItemProxy */;
+		};
+		F88A6D581E94945B00F8E434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F88A6D311E94945B00F8E434 /* AuthText */;
+			targetProxy = F88A6D571E94945B00F8E434 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F88A6D3E1E94945B00F8E434 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F88A6D3F1E94945B00F8E434 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F88A6D431E94945B00F8E434 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F88A6D441E94945B00F8E434 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F88A6D5D1E94945B00F8E434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F88A6D5E1E94945B00F8E434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F88A6D601E94945B00F8E434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AuthText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuye.AuthText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F88A6D611E94945B00F8E434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AuthText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuye.AuthText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F88A6D631E94945B00F8E434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AuthTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuye.AuthTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuthText.app/AuthText";
+			};
+			name = Debug;
+		};
+		F88A6D641E94945B00F8E434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AuthTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuye.AuthTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuthText.app/AuthText";
+			};
+			name = Release;
+		};
+		F88A6D661E94945B00F8E434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AuthTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuye.AuthTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AuthText;
+			};
+			name = Debug;
+		};
+		F88A6D671E94945B00F8E434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AuthTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuye.AuthTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AuthText;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F88A6D2D1E94945B00F8E434 /* Build configuration list for PBXProject "AuthText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F88A6D5D1E94945B00F8E434 /* Debug */,
+				F88A6D5E1E94945B00F8E434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F88A6D5F1E94945B00F8E434 /* Build configuration list for PBXNativeTarget "AuthText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F88A6D601E94945B00F8E434 /* Debug */,
+				F88A6D611E94945B00F8E434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F88A6D621E94945B00F8E434 /* Build configuration list for PBXNativeTarget "AuthTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F88A6D631E94945B00F8E434 /* Debug */,
+				F88A6D641E94945B00F8E434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F88A6D651E94945B00F8E434 /* Build configuration list for PBXNativeTarget "AuthTextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F88A6D661E94945B00F8E434 /* Debug */,
+				F88A6D671E94945B00F8E434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F88A6D2A1E94945B00F8E434 /* Project object */;
+}
